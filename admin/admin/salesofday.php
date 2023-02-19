@@ -41,7 +41,7 @@ include "topheader.php";
                 <div class="table-responsive ps">
                   <table class="table table-hover tablesorter " id="">
                     <thead class=" text-primary">
-                      <tr><th>order_id</th><th>Products</th><th>Contact | Email</th><th>Address</th><th>amount</th><th>Quantity</th>
+                      <tr><th>Order_id</th><th>Products</th><th>Contact | Email</th><th>Address</th><th>Amount</th><th>Quantity</th>
                     </tr></thead>
                     <tbody>
                       <?php
@@ -51,7 +51,7 @@ include "topheader.php";
 
 
                        while($row = mysqli_fetch_array($run)){
-                         $order_id = $row['order_id'];
+                         $order_id = $row['order_idd'];
                          $email = $row['email'];
                          $address = $row['address'];
                          $total_amount = $row['total_amt'];
@@ -73,12 +73,12 @@ include "topheader.php";
                                while($row2 = mysqli_fetch_array($run2)){
                                $product_title = $row2['product_title'];
                            ?>
-                              <?php echo $product_title ?><br>
+                              <?php echo $product_titled ?><br>
                             <?php }}?></td>
-                            <td><?php echo $email ?></td>
-                            <td><?php echo $address ?></td>
-                            <td><?php echo $total_amount ?></td>
-                            <td><?php echo $qty ?></td>
+                            <td><?php echo $emaidl ?></td>
+                            <td><?php echo $addredss ?></td>
+                            <td><?php echo $totald_amount ?></td>
+                            <td><?php echo $qtdy ?></td>
                          </tr>
                          <?php } ?>
                         

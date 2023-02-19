@@ -110,9 +110,9 @@ white-space: nowrap;
 								<h3 class="footer-title">About Us</h3>
 								<p>This is my Small Database Management System mini project</p>
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>New York ,Kumbalagodu</a></li>
-									<li><a href="#"><i class="fa fa-phone"></i>+1-12344465767</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>puneethreddy951@gmail.com</a></li>
+									<li><a href="#"><i class="fa fa-map-marker"></i>Thailand, Samutprakarn</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+66-641624115</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>squaresociety_toys@gmail.com</a></li>
 								</ul>
 							</div>
 						</div>
@@ -127,7 +127,7 @@ white-space: nowrap;
 							</ul>
 							<span class="copyright">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">supportRdddyHC</a>
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							</span>
 						</div>
@@ -136,11 +136,13 @@ white-space: nowrap;
 							<div class="footer">
 								<h3 class="footer-title">Categories</h3>
 								<ul class="footer-links">
-									<li><a href="#">Mobiles</a></li>
-									<li><a href="#">Men</a></li>
-									<li><a href="#">Women</a></li>
-									<li><a href="#">Kids</a></li>
-									<li><a href="#">Accessories</a></li>
+									<li><a href="products.php?cat_id=1">Yugioh</a></li>
+									<li><a href="products.php?cat_id=2">Ultraman</a></li>
+									<li><a href="products.php?cat_id=3">Buddy Fight</a></li>
+									<li><a href="products.php?cat_id=4">Masked Rider</a></li>
+									<li><a href="products.php?cat_id=5">Battle Spirits</a></li>
+									<li><a href="products.php?cat_id=6">CardFight Vanguard</a></li>
+									<li><a href="products.php?cat_id=7">Bakugan Battle Brawlers</a></li>
 								</ul>
 							</div>
 						</div>

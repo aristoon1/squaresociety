@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" href="../assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        TechShop|Admin
+        Admin
     </title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
@@ -33,14 +33,14 @@
 
 <body class="dark-edition">
     <div class="wrapper ">
-        <div class="sidebar" data-color="purple" data-background-color="black" data-image="../assets/img/sidebar-2.jpg">
+        <div class="sidebar" data-color="purple" data-background-color="black" data-image="">
             <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 
         Tip 2: you can also add an image using data-image tag
     -->
-            <div class="logo"><a href="index.php" class="simple-text logo-normal">
-                    <img src="./assets/img/capture.png" style="width: 150px;">
+            <div class="logo"><a href="index.php" class="simple-text">
+                    <p>Square Society | Admin</p>
                 </a></div>
             <div class="sidebar-wrapper">
                 <ul class="nav">

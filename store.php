@@ -63,15 +63,14 @@ include 'header.php';
 									Sort By:
 									<select class="input-select">
 										<option value="0">Popular</option>
-										<option value="1">Position</option>
 									</select>
 								</label>
 
 								<label>
 									Show:
 									<select class="input-select">
-										<option value="0">20</option>
-										<option value="1">50</option>
+										<option value="0">10</option>
+										<option value="1">20</option>
 									</select>
 								</label>
 							</div>
@@ -97,7 +96,7 @@ include 'header.php';
 
 						<!-- store bottom filter -->
 						<div class="store-filter clearfix">
-							<span class="store-qty">Showing 20-100 products</span>
+							<span class="store-qty">Showing 1-20 products</span>
 							<ul class="store-pagination" id="pageno">
 								<li ><a class="active" href="#aside">1</a></li>
 								

@@ -11,7 +11,7 @@ session_start();
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>Online Shopping</title>
+		<title>Square Toys</title>
 
 		<!-- Google font -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet"/>
@@ -74,7 +74,7 @@ session_start();
             background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
-          color: #1E1F29;
+          color: #d5d2d2;
         }
         #bottom-footer {
             background: #7474BF;  /* fallback for old browsers */
@@ -84,14 +84,14 @@ session_start();
 
         }
         .footer-links li a {
-          color: #1E1F29;
+          color: #d5d2d2;
         }
         .mainn-raised {
             
-            margin: -7px 0px 0px;
+            margin: 20px 0px 0px;
             border-radius: 6px;
             box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-
+			background-image: url('../img/b.png');
         }
        
         .glyphicon{
@@ -122,12 +122,11 @@ session_start();
 			<div id="top-header">
 				<div class="container">
 					<ul class="header-links pull-left">
-						<li><a href="#"><i class="fa fa-phone"></i> +1-12344465767</a></li>
-						<li><a href="#"><i class="fa fa-envelope-o"></i> puneethreddy951@gmail.com</a></li>
-						<li><a href="#"><i class="fa fa-map-marker"></i>New York</a></li>
+						<li><a href="#"><i class="fa fa-phone"></i> +66-641624115</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> squaresociety_toys@gmail.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i>Thailand, Samutprakarn</a></li>
 					</ul>
 					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
 						<li><?php
 						
                              include "db.php";
@@ -182,7 +181,7 @@ session_start();
 							<div class="header-logo">
 								<a href="#" class="logo">
 								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
-                                        Online Shop
+                                        Square Society
                                     </font>
 									
 								</a>
@@ -196,8 +195,6 @@ session_start();
 								<form onsubmit="return false">
 									<select class="input-select">
 										<option value="0">All Categories</option>
-										<option value="1">Men</option>
-										<option value="1">Women </option>
 									</select>
 									<input class="input" id="search" type="text" placeholder="Search here">
 									<button id="search_btn"   class="search-btn">Search</button>

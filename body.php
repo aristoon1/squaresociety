@@ -10,28 +10,26 @@
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="img/banner3.jpg" alt="Los Angeles" style="width:100%;">
-        
+		<a href="products.php?cat_id=2">
+        <img src="img/banner1.png" alt="Los Angeles" style="width:100%;">
+		</a>
       </div>
 
       <div class="item">
-        <img src="img/banner2.jpg" style="width:100%;">
-        
+	  	<a href="products.php?cat_id=4">
+        <img src="img/banner2.png" style="width:100%;">
+		</a>
       </div>
     
       <div class="item">
-        <img src="img/banner4.jpg" alt="New York" style="width:100%;">
-        
+	  <a href="products.php?cat_id=1">
+        <img src="img/banner3.png" alt="New York" style="width:100%;">
+		</a>
       </div>
       <div class="item">
-        <img src="img/banner1.jpg" alt="New York" style="width:100%;">
-        
-      </div>
-      <div class="item">
-        <img src="img/banner3.jpg" alt="New York" style="width:100%;">
-        
-      </div>
-  
+		<a href="products.php?cat_id=6">
+        <img src="img/banner4.png" alt="New York" style="width:100%;">
+		</a>
     </div>
 
     <!-- Left and right controls -->
@@ -59,13 +57,13 @@
 				<div class="row">
 					<!-- shop -->
 					<div class="col-md-4 col-xs-6">
-						<a href="product.php?p=78"><div class="shop">
+						<a href="products.php?cat_id=2"><div class="shop">
 							<div class="shop-img">
-								<img src="./img/shop01.png" alt="">
+								<img src="./img/product03.png" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Laptop<br>Collection</h3>
-								<a href="product.php?p=78" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<h3>Figure<br>Collection</h3>
+								<a href="products.php?cat_id=2" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div></a>
 					</div>
@@ -73,13 +71,13 @@
 
 					<!-- shop -->
 					<div class="col-md-4 col-xs-6">
-						<a href="product.php?p=72"><div class="shop">
+						<a href="products.php?cat_id=1"><div class="shop">
 							<div class="shop-img">
-								<img src="./img/shop03.png" alt="">
+								<img src="./img/product01.png" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Accessories<br>Collection</h3>
-								<a href="product.php?p=72" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<h3>Card Game<br>Collection</h3>
+								<a href="products.php?cat_id=1" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div></a>
 					</div>
@@ -87,13 +85,13 @@
 
 					<!-- shop -->
 					<div class="col-md-4 col-xs-6">
-						<a href="product.php?p=79"><div class="shop">
+						<a href="products.php?cat_id=7"><div class="shop">
 							<div class="shop-img">
-								<img src="./img/shop02.png" alt="">
+								<img src="./img/product02.png" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Cameras<br>Collection</h3>
-								<a href="product.php?p=79" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<h3>Bakugan<br>Collection</h3>
+								<a href="products.php?cat_id=7" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
                             </div></a>
 					</div>
@@ -120,10 +118,6 @@
 							<h3 class="title">New Products</h3>
 							<div class="section-nav">
 								<ul class="section-tab-nav tab-nav">
-									<li class="active"><a data-toggle="tab" href="#tab1">Laptops</a></li>
-									<li><a data-toggle="tab" href="#tab1">Smartphones</a></li>
-									<li><a data-toggle="tab" href="#tab1">Cameras</a></li>
-									<li><a data-toggle="tab" href="#tab1">Accessories</a></li>
 								</ul>
 							</div>
 						</div>
@@ -270,7 +264,7 @@
 								</li>
 							</ul>
 							<h2 class="text-uppercase">hot deal this week</h2>
-							<p>New Collection Up to 50% OFF</p>
+							<p>New Products Up to 30% OFF</p>
 							<a class="primary-btn cta-btn" href="store.php">Shop now</a>
 						</div>
 					</div>
@@ -295,10 +289,10 @@
 							<h3 class="title">Top selling</h3>
 							<div class="section-nav">
 								<ul class="section-tab-nav tab-nav">
-									<li class="active"><a data-toggle="tab" href="#tab2">Formals</a></li>
-									<li><a data-toggle="tab" href="#tab2">Shirts</a></li>
-									<li><a data-toggle="tab" href="#tab2">T-Shirts</a></li>
-									<li><a data-toggle="tab" href="#tab2">Pants</a></li>
+									<li class="active"><a data-toggle="tab" href="#tab2">Masked Rider</a></li>
+									<li><a data-toggle="tab" href="#tab2">Ultraman</a></li>
+									<li><a data-toggle="tab" href="#tab2">Battle Spirits</a></li>
+									<li><a data-toggle="tab" href="#tab2">Yugioh</a></li>
 								</ul>
 							</div>
 						</div>
@@ -413,7 +407,7 @@
 				<div class="row">
 					<div class="col-md-4 col-xs-6">
 						<div class="section-title">
-							<h4 class="title">Top selling</h4>
+							<h4 class="title">Best Selling</h4>
 							<div class="section-nav">
 								<div id="slick-nav-3" class="products-slick-nav"></div>
 							</div>
@@ -431,12 +425,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product01.png" alt="">
+										<img src="./img/m3.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Masked Rider</p>
+										<h3 class="product-name"><a href="#">KAMEN RIDER - MASKED RIDER HIBIKI SPIRITSFIGURE-RISE STANDARD</a></h3>
+										<h4 class="product-price">$700.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -444,12 +438,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product02.png" alt="">
+										<img src="./img/u5.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Ultraman</p>
+										<h3 class="product-name"><a href="#">ULTRAMAN TAIGA (ULTRAMAN TAIGA & ULTRA HEROES) BANDAI ICHIBAN FIGURE</a></h3>
+										<h4 class="product-price">$550.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -457,12 +451,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product03.png" alt="">
+										<img src="./img/y3.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Yugioh</p>
+										<h3 class="product-name"><a href="#">YU-GI-OH! TRADING CARDS CYBER STRIKE STRUCTURE DECK, MULTICOLOR</a></h3>
+										<h4 class="product-price">$199.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -472,7 +466,7 @@
 
 					<div class="col-md-4 col-xs-6">
 						<div class="section-title">
-							<h4 class="title">Top selling</h4>
+							<h4 class="title">Most Visitors</h4>
 							<div class="section-nav">
 								<div id="slick-nav-4" class="products-slick-nav"></div>
 							</div>
@@ -483,12 +477,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product04.png" alt="">
+										<img src="./img/m1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Masked Rider</p>
+										<h3 class="product-name"><a href="#">MASKED RIDER DECADE - SPIRITS FIGURE-RISE STANDARD</a></h3>
+										<h4 class="product-price">$950.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -496,12 +490,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product05.png" alt="">
+										<img src="./img/u3.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Ultraman</p>
+										<h3 class="product-name"><a href="#">ULTRAMAN DECKER - ULTRAMAN DECKER FLASH TYPE, BANDAI SPIRITS</a></h3>
+										<h4 class="product-price">$450.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -509,12 +503,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product06.png" alt="">
+										<img src="./img/u4.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Ultraman</ul></p>
+										<h3 class="product-name"><a href="#">ULTRAMAN DYNA HERO STATUE FLASH TYPE PVC FIGURE FIGURINE</a></h3>
+										<h4 class="product-price">$450.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -524,12 +518,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product07.png" alt="">
+										<img src="./img/battle1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Battle Spirits</p>
+										<h3 class="product-name"><a href="#">BATTLE SPIRITS - NEW SERIES : HERO [RED DECK]</a></h3>
+										<h4 class="product-price">$655.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -537,12 +531,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product08.png" alt="">
+										<img src="./img/card1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">CardFight Vanguard</p>
+										<h3 class="product-name"><a href="#">CARDFIGHT!! VANGUARD OVERDRESS VGE-D-SD03 TOHYA EBATA STARTER DECK</a></h3>
+										<h4 class="product-price">$299.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -550,12 +544,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product09.png" alt="">
+										<img src="./img/bakugan1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Bakugan Battle Brawlers</p>
+										<h3 class="product-name"><a href="#">BAKUGAN STARTER PACK 3-PACK, NILLIOUS ULTRA, GEOGAN RISING COLLECTIBLE</a></h3>
+										<h4 class="product-price">$350.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -569,7 +563,7 @@
 
 					<div class="col-md-4 col-xs-6">
 						<div class="section-title">
-							<h4 class="title">Top selling</h4>
+							<h4 class="title">Most Favorited</h4>
 							<div class="section-nav">
 								<div id="slick-nav-5" class="products-slick-nav"></div>
 							</div>
@@ -580,12 +574,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product01.png" alt="">
+										<img src="./img/buddy9.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Buddy Fight</p>
+										<h3 class="product-name"><a href="#">BUDDYFIGHT TAKOKICHI OMEGA MARTIAN UFO CARD GAME CHARACTER DECK BOX CASE HOLDER COLLECTION V2</a></h3>
+										<h4 class="product-price">$199.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -593,12 +587,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product02.png" alt="">
+										<img src="./img/card5.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">CardFight Vanguard</p>
+										<h3 class="product-name"><a href="#">CARDFIGHT VANGUARD: TRIAL DECK V4 - REN SUZUGAMORI</a></h3>
+										<h4 class="product-price">$299.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -606,12 +600,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product03.png" alt="">
+										<img src="./img/u7.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Ultraman</p>
+										<h3 class="product-name"><a href="#">MOVIE MONSTER SERIES GAMERA (1995)</a></h3>
+										<h4 class="product-price">$500.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -621,12 +615,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product04.png" alt="">
+										<img src="./img/y16.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Yugioh</p>
+										<h3 class="product-name"><a href="#">YU-GI-OH! TRADING CARDS SPIRIT CHARMERS STRUCTURE DECK, MULTICOLOR</a></h3>
+										<h4 class="product-price">$300.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -635,12 +629,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product05.png" alt="">
+										<img src="./img/m6.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Masked Rider</p>
+										<h3 class="product-name"><a href="#">KAMEN RIDER - FIGURE-RISE STANDARD MASKED RIDER AGITO GROUND FORM</a></h3>
+										<h4 class="product-price">$650.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -648,12 +642,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product06.png" alt="">
+										<img src="./img/bakugan3.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Bakugan Battle Brawlers</p>
+										<h3 class="product-name"><a href="#">BAKUGAN EVOLUTIONS, GRISWING, PLATINUM SERIES TRUE METAL BAKUGAN</a></h3>
+										<h4 class="product-price">$399.00 <del class="product-old-price">$990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
